@@ -1,9 +1,13 @@
 while(True):
+    chislo = input('Введите число: ')
     try:
-        chislo = input()
         if (chislo == "exit"):
             break
+        length = int(chislo)
         print(len(chislo))
     except ValueError:
         print("Ошибка! Несоответствие типа данных")
         break
+
+
+
